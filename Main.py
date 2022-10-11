@@ -35,7 +35,7 @@ for item in input_data.split(', '):
         root = insert(None, int(item))
         flag = False
     else:
-        insert(root, int(item))
+        insert(root, int(item)
 inorder(root)
 print()
 preorder(root)
